@@ -1,1 +1,67 @@
+# Игнорировать системные файлы PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Игнорировать конкретный Jupyter Notebook
 classification.ipynb
+
+# Дополнительно: стандартные исключения для Python-проектов
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+.installed.cfg
+*.egg-link
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+.env/
+
+# Файлы настроек
+.python-version
+.env
+.venv
+
+# Кэши зависимостей
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+.hypothesis/
+
+# Лог-файлы и временные файлы
+*.log
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+!*/.gitkeep
+
+# OS-специфичные файлы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
